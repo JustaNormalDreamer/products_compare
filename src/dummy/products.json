@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "title": "Oneplus 8",
+    "features": [
+      {
+        "id": "f1",
+        "title": "Color",
+        "body": "Red, Blue, Neon, Yellow"
+      },
+      {
+        "id": "f2",
+        "title": "Display",
+        "body": "Display size is 6.9inch"
+      },
+      {
+        "id": "f3",
+        "title": "Battery",
+        "body": "7000mah, lasts for a whole day within 30 minutes of charge."
+      },
+      {
+        "id": "f4",
+        "title": "Headphone Jack",
+        "body": "Present with 3.5mm headphone jack."
+      },
+      {
+        "id": "f5",
+        "title": "Platform",
+        "body": "Android 10, OxygenOS 10.0"
+      },
+      {
+        "id": "f6",
+        "title": "Memory",
+        "body": "128GB with 8GB RAM,256GB with 12GB RAM "
+      },
+      {
+        "id": "f7",
+        "title": "Chipset",
+        "body": "Qualcomm Snapdragon865 (7nm+)"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Oneplus 7",
+    "features": [
+      {
+        "id": "f1",
+        "title": "Color",
+        "body": "Red, Blue, Green"
+      },
+      {
+        "id": "f2",
+        "title": "Display",
+        "body": "Display size is 5.9inch"
+      },
+      {
+        "id": "f3",
+        "title": "Battery",
+        "body": "7000mah, lasts for a whole day within 30 minutes of charge."
+      },
+      {
+        "id": "f4",
+        "title": "Headphone Jack",
+        "body": "Present with 3.5mm headphone jack."
+      },
+      {
+        "id": "f5",
+        "title": "Platform",
+        "body": "Android 10, OxygenOS 10.0"
+      },
+      {
+        "id": "f6",
+        "title": "Chipset",
+        "body": "Qualcomm Snapdragon 855 (12nm+)"
+      },
+      {
+        "id": "f7",
+        "title": "Memory",
+        "body": "128GB with 8GB RAM,256GB with 12GB RAM "
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Samsung S9",
+    "features": [
+      {
+        "id": "f1",
+        "title": "Color",
+        "body": "Red, Blue, Green"
+      },
+      {
+        "id": "f2",
+        "title": "Display",
+        "body": "Display size is 5.9inch"
+      },
+      {
+        "id": "f3",
+        "title": "Battery",
+        "body": "7000mah, lasts for a whole day within 30 minutes of charge."
+      },
+      {
+        "id": "f4",
+        "title": "Headphone Jack",
+        "body": "Present with 3.5mm headphone jack."
+      },
+      {
+        "id": "f5",
+        "title": "Platform",
+        "body": "Android 10, OxygenOS 10.0"
+      },
+      {
+        "id": "f6",
+        "title": "Chipset",
+        "body": "Qualcomm Snapdragon 855 (12nm+)"
+      },
+      {
+        "id": "f7",
+        "title": "Memory",
+        "body": "128GB with 8GB RAM,256GB with 12GB RAM "
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Samsung S20 Ultra",
+    "features": [
+      {
+        "id": "f1",
+        "title": "Color",
+        "body": "Red, Blue, Green"
+      },
+      {
+        "id": "f2",
+        "title": "Display",
+        "body": "Display size is 5.9inch"
+      },
+      {
+        "id": "f3",
+        "title": "Battery",
+        "body": "7000mah, lasts for a whole day within 30 minutes of charge."
+      },
+      {
+        "id": "f4",
+        "title": "Headphone Jack",
+        "body": "Present with 3.5mm headphone jack."
+      },
+      {
+        "id": "f5",
+        "title": "Platform",
+        "body": "Android 10, OxygenOS 10.0"
+      },
+      {
+        "id": "f6",
+        "title": "Chipset",
+        "body": "Qualcomm Snapdragon 855 (12nm+)"
+      },
+      {
+        "id": "f7",
+        "title": "Memory",
+        "body": "128GB with 8GB RAM,256GB with 12GB RAM "
+      }
+    ]
+  }
+]

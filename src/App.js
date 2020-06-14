@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Products, Compare } from "./components/";
 
-function App() {
+import "bootstrap/dist/css/bootstrap.css";
+
+const App = () => {
+  const [compare_product, setCompare_product] = useState([]);
+
+  //setting the new products added to the compare list
+  const set_the_products = (product) => {
+    if (compare_product.find((el) => el.id === product.id)) {
+    } else {
+      setCompare_product([...compare_product, product]);
+    }
+  };
+
+  //removing the products from compare list
+  const remove_compare_product = (id) => {
+    const updated_product = compare_product.filter((el) => el.id !== id);
+    setCompare_product(updated_product);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container">
+        <Products compare={set_the_products} />
+        <Compare
+          remove_product={remove_compare_product}
+          products={compare_product}
+        />
+      </div>
+    </>
   );
-}
+};
 
 export default App;
