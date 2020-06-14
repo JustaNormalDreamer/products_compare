@@ -9,6 +9,7 @@ const App = () => {
   //setting the new products added to the compare list
   const set_the_products = (product) => {
     if (compare_product.find((el) => el.id === product.id)) {
+      console.log("The product is already in the compare list.");
     } else {
       setCompare_product([...compare_product, product]);
     }
