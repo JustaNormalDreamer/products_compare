@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Products, Compare } from "./components/";
+import { Products, Compare, Search } from "./components/";
+import products from "./dummy/products.json";
 
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -21,9 +22,25 @@ const App = () => {
     setCompare_product(updated_product);
   };
 
+  //state for the searched product lists
+  const [found_product, setFound_product] = useState([]);
+
+  //searching the products from the list
+  const searched_key = (keyword) => {
+    const found_products = products.filter((el) => {
+      if (el.title.toLowerCase().includes(keyword)) {
+        return el;
+      }
+      return null;
+    });
+    //setting the products to the state
+    setFound_product(found_products);
+  };
+
   return (
     <>
       <div className="container">
+        <Search searched_key={searched_key} found_product={found_product} />
         <Products compare={set_the_products} />
         <Compare
           remove_product={remove_compare_product}
